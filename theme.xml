@@ -1,0 +1,407 @@
+<!--
+ALEKFULL NX // theme by fagnerpc
+facebook.com/alekfull.arcade
+
+Inspired by Switch interface
+Logos by Lilbud and fagnerpc
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>-0.660 -0.10</pos>
+        <size>1.76 1</size>
+        <logoScale>1.12</logoScale>
+         <zIndex>45</zIndex>          
+        <logoSize>0.28 0.28</logoSize>
+        <color>00000000</color>
+		<logoRotation>-6.5</logoRotation>
+		<logoRotationOrigin>5.5 0.5</logoRotationOrigin>
+		<logoAlignment>bottom</logoAlignment>
+        <maxLogoCount>10</maxLogoCount>
+      </carousel>
+	  
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>40</zIndex>                 
+      </image>   
+	  
+      <text name="systemInfo">
+         <zIndex>44</zIndex>       
+         <pos>-0.30 0.924</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>cbcbcb</color>
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+	     <fontSize>0.0215</fontSize>
+         <zIndex>44</zIndex>	     
+      </text> 
+	  
+	<image name="art2" extra="true">
+		<path>./assets/overlay.png</path>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<zIndex>42</zIndex>
+	</image>
+	  
+	<helpsystem name="help">
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.0215</fontSize>     
+         <pos>0.62 0.942</pos>      
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+	</helpsystem> 	  
+   </view>
+</feature>
+
+   <view name="detailed">
+        <image name="bg3" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./assets/default-detailed2.png</path>
+		 <zIndex>41</zIndex>
+      </image>
+      
+	   <image name="logo">
+		<pos>0.14 0.925</pos>
+		<maxSize>0.10 0.10</maxSize>
+		<zIndex>53</zIndex>
+      </image>
+   
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.0215</fontSize>      
+         <pos>0.30 0.942</pos>      
+         <textColor>636363</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+	  
+	  <textlist name="gamelist">
+         <pos>0.084 0.12</pos>
+         <size>0.345 0.75</size>
+         <selectorColor>403c3e</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.023</fontSize>
+         <alignment>left</alignment>
+		 <lineSpacing>2.075</lineSpacing>
+		 <zIndex>42</zIndex>
+      </textlist>
+	  
+	   <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>30</zIndex>          
+      </image>
+	  
+	 <datetime name="md_lastplayed">
+	  <pos>2 2</pos>
+		<fontSize>0.00</fontSize>
+		<size>0 0</size><zIndex>0</zIndex>
+	</datetime>
+	  
+      <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_publisher, md_playcount, md_players">
+	  <pos>2 2</pos>
+		<fontSize>0.00</fontSize>
+		<size>0 0</size><zIndex>0</zIndex>
+      </text>
+
+      <rating name="md_rating">
+         <pos>0.863 0.632</pos>
+         <size>0.028 0.028</size>
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+	  
+      <datetime name="md_releasedate">
+         <pos>0.855 0.676</pos>
+		 <color>726f70</color>
+		 <fontSize>0.023</fontSize>
+		 <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <zIndex>42</zIndex>         
+      </datetime>
+	  
+      <text name="md_genre">
+         <pos>0.51 0.632</pos>
+         <size>0.220 0.034</size>
+		 <fontSize>0.023</fontSize>
+		<color>726f70</color>
+		<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+		<alignment>center</alignment>
+         <zIndex>42</zIndex>         
+      </text>         
+
+      <text name="md_developer">
+		<size>0.200 0.037</size>
+		<pos>0.53 0.676</pos>
+		<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+		<fontSize>0.023</fontSize>
+		<color>726f70</color>
+		<alignment>center</alignment>
+        <zIndex>42</zIndex>                  
+      </text>
+	  
+      <text name="md_description">
+	  	<color>726f70</color>
+		<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+		<fontSize>0.023</fontSize>
+		<size>0.43 0.19</size>
+		<pos>0.51 0.720</pos>       
+        <zIndex>42</zIndex>         
+      </text>
+
+      <image name="md_image">
+		<pos>0.737 0.335</pos>
+		<maxSize>0.586 0.576</maxSize>
+		<origin>0.5 0.5</origin>
+		<zIndex>51</zIndex>         
+      </image> 
+   </view> 
+   <view name="video">
+        <image name="bg3" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./assets/default-detailed2.png</path>
+		 <zIndex>41</zIndex>
+      </image>
+      
+	   <image name="logo">
+		<pos>0.14 0.925</pos>
+		<maxSize>0.10 0.10</maxSize>
+		<zIndex>53</zIndex>
+      </image>
+   
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.0215</fontSize>      
+         <pos>0.30 0.942</pos>      
+         <textColor>636363</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+	  
+	  <textlist name="gamelist">
+         <pos>0.084 0.12</pos>
+         <size>0.345 0.75</size>
+         <selectorColor>403c3e</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.023</fontSize>
+         <alignment>left</alignment>
+		 <lineSpacing>2.075</lineSpacing>
+		 <zIndex>42</zIndex>
+      </textlist>
+	  
+	   <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>30</zIndex>          
+      </image>
+	  
+	 <datetime name="md_lastplayed">
+	  <pos>2 2</pos>
+		<fontSize>0.00</fontSize>
+		<size>0 0</size><zIndex>0</zIndex>
+	</datetime>
+	  
+      <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_publisher, md_playcount, md_players">
+	  <pos>2 2</pos>
+		<fontSize>0.00</fontSize>
+		<size>0 0</size><zIndex>0</zIndex>
+      </text>
+
+      <rating name="md_rating">
+         <pos>0.863 0.632</pos>
+         <size>0.028 0.028</size>
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+	  
+      <datetime name="md_releasedate">
+         <pos>0.855 0.676</pos>
+		 <color>726f70</color>
+		 <fontSize>0.023</fontSize>
+		 <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <zIndex>42</zIndex>         
+      </datetime>
+	  
+      <text name="md_genre">
+         <pos>0.51 0.632</pos>
+         <size>0.220 0.034</size>
+		 <fontSize>0.023</fontSize>
+		<color>726f70</color>
+		<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+		<alignment>center</alignment>
+         <zIndex>42</zIndex>         
+      </text>         
+
+      <text name="md_developer">
+		<size>0.200 0.037</size>
+		<pos>0.53 0.676</pos>
+		<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+		<fontSize>0.023</fontSize>
+		<color>726f70</color>
+		<alignment>center</alignment>
+        <zIndex>42</zIndex>                  
+      </text>
+	  
+      <text name="md_description">
+	  	<color>726f70</color>
+		<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+		<fontSize>0.023</fontSize>
+		<size>0.43 0.19</size>
+		<pos>0.51 0.720</pos>       
+        <zIndex>42</zIndex>         
+      </text>
+
+   </view> 
+   <view name="basic">
+      <image name="bg3" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./assets/basic2.png</path>
+		 <zIndex>41</zIndex>
+      </image>
+      
+	   <image name="logo">
+		<pos>0.13 0.912</pos>
+		<maxSize>0.10 0.10</maxSize>
+		<zIndex>53</zIndex>
+      </image>
+   
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.0215</fontSize>      
+         <pos>0.30 0.942</pos>      
+         <textColor>636363</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+	  
+	  <textlist name="gamelist">
+         <pos>0.084 0.12</pos>
+         <size>0.345 0.75</size>
+         <selectorColor>403c3e</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.023</fontSize>
+         <alignment>left</alignment>
+		 <lineSpacing>2.075</lineSpacing>
+		 <zIndex>42</zIndex>
+      </textlist>
+	  
+	   <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>30</zIndex>          
+      </image>  
+   </view>   
+
+   <view name="video">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>30</zIndex>          
+      </image>
+
+    <video name="md_video">
+         <pos>0.737 0.335</pos>
+         <maxSize>0.586 0.576</maxSize>
+         <delay>1.0</delay>
+         <zIndex>42</zIndex>         
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
+      <image name="md_marquee">
+         <pos>0.15 0.05</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.17 0.1</maxSize>
+         <zIndex>42</zIndex>         
+      </image>          
+   </view>
+   
+   	<view name="grid">
+	<text name="md_genre">
+			<size>0.83 0.19</size>
+			<color>ffffff</color> <origin>0.5 0.5</origin>
+			<pos>0.47 0.709</pos>
+			<fontSize>0.06</fontSize>
+			<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+			<zIndex>91</zIndex>  
+		</text>
+	
+	<text name="md_description">
+	  	<color>ffffff</color>
+		<fontSize>0.028</fontSize>
+		<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+		<size>0.69 0.17</size>
+		<pos>0.06 0.740</pos>
+    </text>
+	
+
+	
+	 <image name="logo">
+		<pos>-0.01 0.545</pos>
+		<maxSize>0.30 0.30</maxSize>
+		<zIndex>0</zIndex>
+      </image>
+	
+	<image name="art2" extra="true">
+		<path>./assets/gridoverlay.png</path>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<zIndex>10</zIndex>
+	</image>
+	
+	 <helpsystem name="help">
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.0215</fontSize>      
+         <pos>0.30 0.942</pos>      
+         <textColor>636363</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+	
+		<gridtile name="default">
+			<size>0.22875 0.33</size>
+			<backgroundColor>00000000</backgroundColor>
+		</gridtile>
+	
+	 <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>    		<zIndex>8</zIndex>    
+      </image>
+	
+	<imagegrid name="gamegrid">
+			<pos>0.04 0.22</pos>
+			<size>1 0.64</size>
+			<margin>-0.055 0.01</margin>
+		</imagegrid>
+	
+	<gridtile name="selected">
+			<size>0.30075 0.58</size>
+			<backgroundColor>00cbe7</backgroundColor>
+		</gridtile>
+		
+		
+    </view>
+</theme>
