@@ -44,7 +44,7 @@ Logos by Lilbud and fagnerpc
       </text> 
 	  
 	<image name="art2" extra="true">
-		<path>./assets/overlay.png</path>
+		<path>./_inc/assets/overlay.png</path>
 		<size>1 1</size>
 		<pos>0 0</pos>
 		<origin>0 0</origin>
@@ -66,7 +66,7 @@ Logos by Lilbud and fagnerpc
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>        
-         <path>./assets/default-detailed2.png</path>
+         <path>./_inc/assets/default-detailed2.png</path>
 		 <zIndex>41</zIndex>
       </image>
       
@@ -173,7 +173,7 @@ Logos by Lilbud and fagnerpc
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>        
-         <path>./assets/default-detailed2.png</path>
+         <path>./_inc/assets/default-detailed2.png</path>
 		 <zIndex>41</zIndex>
       </image>
       
@@ -274,7 +274,7 @@ Logos by Lilbud and fagnerpc
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>        
-         <path>./assets/basic2.png</path>
+         <path>./_inc/assets/basic2.png</path>
 		 <zIndex>41</zIndex>
       </image>
       
@@ -365,7 +365,7 @@ Logos by Lilbud and fagnerpc
       </image>
 	
 	<image name="art2" extra="true">
-		<path>./assets/gridoverlay.png</path>
+		<path>./_inc/assets/gridoverlay.png</path>
 		<size>1 1</size>
 		<pos>0 0</pos>
 		<origin>0 0</origin>
