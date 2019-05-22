@@ -10,6 +10,16 @@ Logos by Lilbud and fagnerpc
 <theme>
    <formatVersion>4</formatVersion>
 
+   <view name="system, basic, detailed, grid, video">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>40</zIndex>                 
+      </image> 
+
+   </view>
+
    <feature supported="carousel">
       <view name="system">
          <carousel name="systemcarousel">
@@ -25,14 +35,7 @@ Logos by Lilbud and fagnerpc
             <logoAlignment>bottom</logoAlignment>
             <maxLogoCount>10</maxLogoCount>
          </carousel>
-      
-         <image name="background" extra="true">
-            <origin>0 0</origin>
-            <pos>0 0</pos>
-            <size>1 1</size>
-            <zIndex>40</zIndex>                 
-         </image>   
-      
+         
          <text name="systemInfo">
             <zIndex>44</zIndex>       
             <pos>-0.30 0.924</pos>
@@ -97,13 +100,6 @@ Logos by Lilbud and fagnerpc
 		   <lineSpacing>2.075</lineSpacing>
 		   <zIndex>42</zIndex>
       </textlist>
-	  
-	   <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>30</zIndex>          
-      </image>
 	  
 	   <datetime name="md_lastplayed">
 	      <pos>2 2</pos>
@@ -206,13 +202,6 @@ Logos by Lilbud and fagnerpc
          <zIndex>42</zIndex>
       </textlist>
 	  
-	   <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>30</zIndex>          
-      </image>
-	  
 	   <datetime name="md_lastplayed">
 	      <pos>2 2</pos>
 		   <fontSize>0.00</fontSize>
@@ -305,24 +294,10 @@ Logos by Lilbud and fagnerpc
          <alignment>left</alignment>
 		   <lineSpacing>2.075</lineSpacing>
 		   <zIndex>42</zIndex>
-      </textlist>
-	  
-	   <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>30</zIndex>          
-      </image>  
+      </textlist>  
    </view>   
 
    <view name="video">
-      <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>30</zIndex>          
-      </image>
-
       <video name="md_video">
          <pos>0.737 0.335</pos>
          <maxSize>0.586 0.576</maxSize>
@@ -384,12 +359,6 @@ Logos by Lilbud and fagnerpc
 			<size>0.22875 0.33</size>
 			<backgroundColor>00000000</backgroundColor>
 		</gridtile>
-	
-	   <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>    		<zIndex>8</zIndex>    
-      </image>
 	
 	   <imagegrid name="gamegrid">
 			<pos>0.04 0.22</pos>
