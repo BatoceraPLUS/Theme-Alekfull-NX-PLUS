@@ -18,6 +18,13 @@ Logos by Lilbud and fagnerpc
          <zIndex>40</zIndex>                 
       </image> 
 
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+         <fontSize>0.0215</fontSize>     
+         <pos>0.57 0.942</pos>      
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem> 	  
    </view>
 
    <feature supported="carousel">
@@ -53,14 +60,6 @@ Logos by Lilbud and fagnerpc
             <origin>0 0</origin>
             <zIndex>42</zIndex>
          </image>
-      
-         <helpsystem name="help">
-            <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
-            <fontSize>0.0215</fontSize>     
-            <pos>0.62 0.942</pos>      
-            <textColor>ffffff</textColor>
-            <iconColor>ffffff</iconColor>
-         </helpsystem> 	  
       </view>
    </feature>
 
@@ -80,11 +79,8 @@ Logos by Lilbud and fagnerpc
       </image>
    
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
-         <fontSize>0.0215</fontSize>      
          <pos>0.30 0.942</pos>      
-         <textColor>636363</textColor>
-         <iconColor>ffffff</iconColor>
+         <textColor>636363</textColor>         
       </helpsystem>
 	  
 	  <textlist name="gamelist">
@@ -181,11 +177,8 @@ Logos by Lilbud and fagnerpc
       </image>
    
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
-         <fontSize>0.0215</fontSize>      
          <pos>0.30 0.942</pos>      
          <textColor>636363</textColor>
-         <iconColor>ffffff</iconColor>
       </helpsystem>
 	  
 	  <textlist name="gamelist">
@@ -275,11 +268,8 @@ Logos by Lilbud and fagnerpc
       </image>
    
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
-         <fontSize>0.0215</fontSize>      
          <pos>0.30 0.942</pos>      
          <textColor>636363</textColor>
-         <iconColor>ffffff</iconColor>
       </helpsystem>
 	  
 	   <textlist name="gamelist">
@@ -348,11 +338,8 @@ Logos by Lilbud and fagnerpc
       </image>
 	
 	   <helpsystem name="help">
-         <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
-         <fontSize>0.0215</fontSize>      
          <pos>0.30 0.942</pos>      
          <textColor>636363</textColor>
-         <iconColor>ffffff</iconColor>
       </helpsystem>
 	
 		<gridtile name="default">
