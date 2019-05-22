@@ -67,7 +67,7 @@ Logos by Lilbud and fagnerpc
       <image name="bg3" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <size>1 1</size>        
+         <size>1 1</size> 
          <path>./_inc/assets/default-detailed2.png</path>
       </image>
       
@@ -88,28 +88,9 @@ Logos by Lilbud and fagnerpc
          <alignment>left</alignment>
 		   <lineSpacing>2.075</lineSpacing>
       </textlist>
-	  
-	   <datetime name="md_lastplayed">
-	      <pos>2 2</pos>
-		   <fontSize>0.00</fontSize>
-		   <size>0 0</size>
-	   </datetime>
-	  
-      <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_publisher, md_playcount, md_players">
-	      <pos>2 2</pos>
-		   <fontSize>0.00</fontSize>
-		   <size>0 0</size>
-      </text>
-
-      <rating name="md_rating">
-         <pos>0.863 0.632</pos>
-         <size>0.028 0.028</size>
-         <filledPath>./_inc/images/star_filled.png</filledPath>
-         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
-      </rating>
-	  
+	  	      	  
       <datetime name="md_releasedate">
-         <pos>0.855 0.676</pos>
+         <pos>0.855 0.668</pos>
 		   <color>726f70</color>
 		   <fontSize>0.023</fontSize>
 		   <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
@@ -144,16 +125,16 @@ Logos by Lilbud and fagnerpc
 
    <view name="detailed">
       <image name="md_image">
-         <pos>0.737 0.335</pos>
-         <maxSize>0.586 0.576</maxSize>
+         <pos>0.72 0.335</pos>
+         <maxSize>0.42 0.42</maxSize>
          <origin>0.5 0.5</origin>
       </image>  
    </view>
 
    <view name="video">
       <video name="md_video">
-         <pos>0.737 0.335</pos>
-         <maxSize>0.586 0.576</maxSize>
+         <pos>0.72 0.335</pos>
+         <maxSize>0.42 0.42</maxSize>
          <delay>1.0</delay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
          <showSnapshotDelay>true</showSnapshotDelay>
