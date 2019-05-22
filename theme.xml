@@ -167,25 +167,9 @@ Logos by Lilbud and fagnerpc
    </view>
    
    <view name="grid">
-	   <text name="md_genre">
-			<size>0.83 0.19</size>
-			<color>ffffff</color> <origin>0.5 0.5</origin>
-			<pos>0.47 0.709</pos>
-			<fontSize>0.06</fontSize>
-			<fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
-		</text>
-	
-	   <text name="md_description">
-	  	   <color>ffffff</color>
-		   <fontSize>0.028</fontSize>
-		   <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
-		   <size>0.69 0.17</size>
-		   <pos>0.06 0.740</pos>
-      </text>
-		
 	   <image name="logo">
-		   <pos>-0.01 0.545</pos>
-		   <maxSize>0.30 0.30</maxSize>
+		   <pos>0.14 0.925</pos>
+		   <maxSize>0.10 0.10</maxSize>
       </image>
 	
       <image name="art2" extra="true">
@@ -195,20 +179,30 @@ Logos by Lilbud and fagnerpc
          <origin>0 0</origin>
       </image>
 	
-		<gridtile name="default">
-			<size>0.22875 0.33</size>
-			<backgroundColor>00000000</backgroundColor>
-		</gridtile>
-	
-	   <imagegrid name="gamegrid">
-			<pos>0.04 0.22</pos>
-			<size>1 0.64</size>
-			<margin>-0.055 0.01</margin>
+      <imagegrid name="gamegrid">
+			<pos>0.1 0.13</pos>
+			<size>0.9 0.65</size>
+			<margin>-0 0</margin>
 		</imagegrid>
-	
-	   <gridtile name="selected">
-			<size>0.30075 0.58</size>
-			<backgroundColor>00cbe7</backgroundColor>
+
+		<gridtile name="default">
+			<size>0.20 0.33</size>
+			<backgroundImage>./_inc/images/default_grid.png</backgroundImage>
+			<backgroundColor>42424200</backgroundColor>
+		</gridtile>
+
+		<gridtile name="selected">
+			<size>0.25 0.40</size>
+			<backgroundImage>./_inc/images/default_grid.png</backgroundImage>
+			<backgroundColor>42424200</backgroundColor>
 		</gridtile>		
+
+      <text name="md_name">
+         <pos>0.1 0.82</pos>
+         <fontSize>0.04</fontSize>
+		   <color>858585</color>
+		   <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
+		   <alignment>center</alignment>
+		</text>
     </view>
 </theme>
