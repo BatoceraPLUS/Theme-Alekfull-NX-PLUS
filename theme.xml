@@ -20,8 +20,8 @@ Logos by Lilbud and fagnerpc
       <helpsystem name="help">
          <fontPath>./_inc/fonts/Oxygen-Regular.ttf</fontPath>
          <fontSize>0.0215</fontSize>     
-         <pos>0.57 0.942</pos>      
-         <textColor>ffffff</textColor>
+         <pos>0.30 0.942</pos>      
+         <textColor>636363</textColor>
          <iconColor>ffffff</iconColor>
       </helpsystem> 	  
    </view>
@@ -55,6 +55,11 @@ Logos by Lilbud and fagnerpc
             <pos>0 0</pos>
             <origin>0 0</origin>
          </image>
+
+         <helpsystem name="help">
+            <pos>0.57 0.942</pos>      
+            <textColor>ffffff</textColor>         
+      </helpsystem>
       </view>
    </feature>
 
@@ -71,11 +76,6 @@ Logos by Lilbud and fagnerpc
 		   <maxSize>0.10 0.10</maxSize>
       </image>
    
-      <helpsystem name="help">
-         <pos>0.30 0.942</pos>      
-         <textColor>636363</textColor>         
-      </helpsystem>
-	  
 	  <textlist name="gamelist">
          <pos>0.084 0.12</pos>
          <size>0.345 0.75</size>
@@ -194,11 +194,6 @@ Logos by Lilbud and fagnerpc
          <pos>0 0</pos>
          <origin>0 0</origin>
       </image>
-	
-	   <helpsystem name="help">
-         <pos>0.30 0.942</pos>      
-         <textColor>636363</textColor>
-      </helpsystem>
 	
 		<gridtile name="default">
 			<size>0.22875 0.33</size>
