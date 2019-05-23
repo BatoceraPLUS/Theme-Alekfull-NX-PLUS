@@ -149,11 +149,13 @@ Logos by Lilbud and fagnerpc
       </image>
 
       <video name="md_video">
+         <origin>0.5 0.5</origin>
          <pos>0.72 0.335</pos>
          <maxSize>0.42 0.42</maxSize>
-         <delay>1.0</delay>
-         <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <showSnapshotDelay>true</showSnapshotDelay>
+         <default>./_inc/videos/static.mp4</default>
+         <delay>0.1</delay>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
       </video> 
    </view>
    
