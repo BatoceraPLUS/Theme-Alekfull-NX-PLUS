@@ -1,4 +1,8 @@
-AleKFULL-NX
+# AleKFULL-NX 
+A theme of EmulationStation by fagnerpc and modified by Juliano Dorigão.
+
+https://www.facebook.com/alekfull.arcade/
+
 
 # Screenshots
 ![alt text](_inc/screenshot/system.png "System")
