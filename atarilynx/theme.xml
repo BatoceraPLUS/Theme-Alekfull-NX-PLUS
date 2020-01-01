@@ -2,7 +2,7 @@
 	<formatVersion>4</formatVersion>
 	<include>./../theme.xml</include>
 
-	<view name="system, basic, detailed, video, grid">
+	<view name="system, basic, detailed, grid">
 		<image name="logo">
 			<path>./_inc/system.jpg</path>
 		</image>
