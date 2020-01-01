@@ -8,7 +8,8 @@ Logos by Lilbud and fagnerpc
 
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
-   <formatVersion>4</formatVersion>
+   <formatVersion>7</formatVersion>
+   <include>./_inc/icons/menuicons.xml</include>
 
    <view name="screen">	
 		<controllerActivity name="controllerActivity">
@@ -21,7 +22,39 @@ Logos by Lilbud and fagnerpc
 		<hotkeyColor>DEEC00</hotkeyColor>
 		<verticalAlignment>center</verticalAlignment>
 		</controllerActivity>		
-	</view>
+   </view>
+   
+   <view name="menu">
+      <menuText name="menutitle">
+         <fontSize>0.044</fontSize>
+         <color>FAFAFA</color>
+      </menuText>
+
+      <menuText name="menufooter">
+         <fontSize>0.02</fontSize>
+         <color>777777FF</color>
+      </menuText>
+
+      <menuText name="menutext">
+         <fontSize>0.035</fontSize>
+         <color>969696</color>
+         <separatorColor>323232FF</separatorColor>
+         <selectorColor>00c3e3</selectorColor>
+         <selectorColorEnd>00d2ed</selectorColorEnd>
+         <selectedColor>262626</selectedColor>
+      </menuText>
+
+      <menuTextSmall name="menutextsmall">
+         <fontSize>0.02</fontSize>
+         <color>909090FF</color>
+      </menuTextSmall>
+
+      <menuBackground name="menubg">
+         <color>242424</color>
+         <cornerSize>32 32</cornerSize>
+         <path>./_inc/assets/frame.png</path>
+     </menuBackground>
+  </view>
 
    <view name="system, basic, detailed, grid, video">
       <image name="background" extra="true">
