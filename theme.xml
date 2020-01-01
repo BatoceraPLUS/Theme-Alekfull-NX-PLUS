@@ -27,7 +27,7 @@ Logos by Lilbud and fagnerpc
    <view name="menu">
       <menuText name="menutitle">
          <fontSize>0.044</fontSize>
-         <color>FAFAFA</color>
+         <color>d9d9d9</color>
       </menuText>
 
       <menuText name="menufooter">
@@ -39,8 +39,8 @@ Logos by Lilbud and fagnerpc
          <fontSize>0.035</fontSize>
          <color>969696</color>
          <separatorColor>323232FF</separatorColor>
-         <selectorColor>00c3e3</selectorColor>
-         <selectorColorEnd>00d2ed</selectorColorEnd>
+         <selectorColor>009cb6</selectorColor>
+         <selectorColorEnd>00a9bf</selectorColorEnd>
          <selectedColor>262626</selectedColor>
       </menuText>
 
@@ -50,7 +50,7 @@ Logos by Lilbud and fagnerpc
       </menuTextSmall>
 
       <menuBackground name="menubg">
-         <color>242424</color>
+         <color>4b4b4b</color>
          <cornerSize>32 32</cornerSize>
          <path>./_inc/assets/frame.png</path>
      </menuBackground>
