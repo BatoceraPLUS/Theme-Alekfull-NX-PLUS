@@ -10,6 +10,19 @@ Logos by Lilbud and fagnerpc
 <theme>
    <formatVersion>4</formatVersion>
 
+   <view name="screen">	
+		<controllerActivity name="controllerActivity">
+		<pos>0.01 0.97</pos>
+		<size>0.085 0.025</size>
+		<itemSpacing>0.003</itemSpacing>
+		<imagePath>./_inc/icons/gamepad.svg</imagePath>
+		<color>FFFFFF90</color>
+		<activityColor>FFFFFF</activityColor>
+		<hotkeyColor>DEEC00</hotkeyColor>
+		<verticalAlignment>center</verticalAlignment>
+		</controllerActivity>		
+	</view>
+
    <view name="system, basic, detailed, grid, video">
       <image name="background" extra="true">
          <origin>0 0</origin>
