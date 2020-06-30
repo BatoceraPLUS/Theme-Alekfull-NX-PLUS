@@ -1,6 +1,8 @@
 # AleKFULL-NX 
 A theme of EmulationStation by fagnerpc and modified by Juliano Dorigão.
 
+Adapted for Batocera.PLUS by Caetano Ramos and Alexandre Freire dos Santos
+
 https://www.facebook.com/alekfull.arcade/
 
 
