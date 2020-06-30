@@ -8,55 +8,9 @@ Logos by Lilbud and fagnerpc
 
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
-   <formatVersion>7</formatVersion>
-   <include>./_inc/icons/menuicons.xml</include>
+   <formatVersion>4</formatVersion>
 
-   <view name="screen">	
-		<controllerActivity name="controllerActivity">
-		<pos>0.01 0.97</pos>
-		<size>0.085 0.025</size>
-		<itemSpacing>0.003</itemSpacing>
-		<imagePath>./_inc/icons/gamepad.svg</imagePath>
-		<color>FFFFFF90</color>
-		<activityColor>FFFFFF</activityColor>
-		<hotkeyColor>DEEC00</hotkeyColor>
-		<verticalAlignment>center</verticalAlignment>
-		</controllerActivity>		
-   </view>
-   
-   <view name="menu">
-      <menuText name="menutitle">
-         <fontSize>0.044</fontSize>
-         <color>d9d9d9</color>
-      </menuText>
-
-      <menuText name="menufooter">
-         <fontSize>0.02</fontSize>
-         <color>777777FF</color>
-      </menuText>
-
-      <menuText name="menutext">
-         <fontSize>0.035</fontSize>
-         <color>969696</color>
-         <separatorColor>323232FF</separatorColor>
-         <selectorColor>009cb6</selectorColor>
-         <selectorColorEnd>00a9bf</selectorColorEnd>
-         <selectedColor>262626</selectedColor>
-      </menuText>
-
-      <menuTextSmall name="menutextsmall">
-         <fontSize>0.02</fontSize>
-         <color>909090FF</color>
-      </menuTextSmall>
-
-      <menuBackground name="menubg">
-         <color>4b4b4b</color>
-         <cornerSize>32 32</cornerSize>
-         <path>./_inc/assets/frame.png</path>
-     </menuBackground>
-  </view>
-
-   <view name="system, basic, detailed, grid">
+   <view name="system, basic, detailed, grid, video">
       <image name="background" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -109,7 +63,7 @@ Logos by Lilbud and fagnerpc
       </view>
    </feature>
 
-   <view name="detailed, basic">
+   <view name="detailed, video, basic">
       <image name="logo">
 		   <pos>0.14 0.925</pos>
 		   <maxSize>0.10 0.10</maxSize>
@@ -179,14 +133,30 @@ Logos by Lilbud and fagnerpc
          <path>./_inc/assets/detailed.png</path>
       </image>
 
-      <video name="md_video">
+      <image name="md_image">
          <pos>0.72 0.335</pos>
          <maxSize>0.42 0.42</maxSize>
-         <origin>0.5 0.5</origin><delay>0.8</delay>
-         <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <showSnapshotDelay>true</showSnapshotDelay>
-         <loops>0</loops>
-      </video>
+         <origin>0.5 0.5</origin>
+      </image>  
+   </view>
+
+   <view name="video">
+      <image name="videodOverlay" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size> 
+         <path>./_inc/assets/detailed.png</path>
+      </image>
+
+      <video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.72 0.335</pos>
+         <maxSize>0.42 0.42</maxSize>
+         <default>./_inc/videos/static.mp4</default>
+         <delay>0.1</delay>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+      </video> 
    </view>
    
    <view name="grid">
